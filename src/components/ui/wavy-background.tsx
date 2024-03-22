@@ -108,7 +108,6 @@ export const WavyBackground = ({
         !navigator.userAgent.includes("Chrome")
     );
   }, []);
-
   return (
     <div
       className={cn(
