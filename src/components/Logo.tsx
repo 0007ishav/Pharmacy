@@ -20,13 +20,13 @@ const Logo = () => {
 
   return (
     <>
-      <div className="fixed top-5 left-5 md:top-2 md:left-2">
+      <div className="fixed top-5 left-5 md:top-2 md:left-2 min">
         <Link href="/" >
           <Image
             src="/Logo/logo-white.png"
             alt="Logo"
             width={width < 1024 ? "70" : "250"}
-            height={width < 1024 ? "15" : "74"}
+            height={width < 1024 ? "25" : "74"}
             className="relative"
           />
         </Link>

@@ -1,5 +1,4 @@
 import AboutUsBG from "@/components/AboutUsBG"
-import { AuroraBackground } from "@/components/ui/aurora-background"
 
 function page() {
   return (
