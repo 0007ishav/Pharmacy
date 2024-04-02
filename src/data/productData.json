@@ -1,0 +1,51 @@
+  [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "description": "Description for Product 1",
+      "price": "29.99",
+      "category": "Category 1",
+      "image": "/categoryImages/sick.png"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "description": "Description for Product 2",
+      "price": "39.99",
+      "category": "Category 2",
+      "image": "/categoryImages/sick.png"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "description": "Description for Product 3",
+      "price": "49.99",
+      "category": "Category 1",
+      "image": "/categoryImages/sick.png"
+    },
+    {
+      "id": "4",
+      "name": "Product 4",
+      "description": "Description for Product 4",
+      "price": "59.99",
+      "category": "Category 2",
+      "image": "/categoryImages/sick.png"
+    },
+    {
+      "id": "5",
+      "name": "Product 4",
+      "description": "Description for Product 4",
+      "price": "59.99",
+      "category": "Category 3",
+      "image": "/categoryImages/sick.png"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "description": "Description for Product 6",
+      "price": "59.99",
+      "category": "Category 3",
+      "image": "/categoryImages/sick.png"
+    }
+  ]
+  
