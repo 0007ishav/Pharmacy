@@ -1,3 +1,4 @@
+
 import EmailLink from "./EmailLink"
 
 
@@ -13,13 +14,14 @@ function Footer() {
             strive to ensure your health needs are met with care and compassion.
             </p>
           </div>
+
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
             <ul>
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-green-400 transition-colors duration-300"
                 >
                   Home
                 </a>
@@ -27,7 +29,7 @@ function Footer() {
               <li>
                 <a
                   href="/aboutus"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-green-400 transition-colors duration-300"
                 >
                   About
                 </a>
@@ -43,7 +45,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-green-400 transition-colors duration-300"
                 >
                   Contact
                 </a>
@@ -71,7 +73,7 @@ function Footer() {
               <a
               target="_blank"
                 href="https://www.instagram.com/ishan_medicose123?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                className="hover:text-white transition-colors duration-300"
+                className="hover:text-green-400 transition-colors duration-300"
               >
                 Instagram ↗️
               </a>
@@ -89,7 +91,7 @@ function Footer() {
             <p>
             {/* <PhoneLink phoneNumber="+917082606617"/> */}
               Phone: +917082606617</p>
-              <p><a target="_blank" href="https://maps.app.goo.gl/DDfd3jsWuz6FgkWp9">Location ↗️</a></p>
+              <p><a target="_blank" href="https://maps.app.goo.gl/DDfd3jsWuz6FgkWp9" className="hover:text-green-400 transition-colors duration-300">Location ↗️</a></p>
           </div>
           </div>
           <p className="text-center text-xs pt-8">© 2024 Ishan Medicose. All rights reserved.</p>
