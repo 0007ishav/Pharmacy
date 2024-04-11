@@ -1,51 +1,162 @@
-  [
-    {
-      "id": "1",
-      "name": "Product 1",
-      "description": "Description for Product 1",
-      "price": "29.99",
-      "category": "Category 1",
-      "image": "/categoryImages/sick.png"
-    },
-    {
-      "id": "2",
-      "name": "Product 2",
-      "description": "Description for Product 2",
-      "price": "39.99",
-      "category": "Category 2",
-      "image": "/categoryImages/sick.png"
-    },
-    {
-      "id": "3",
-      "name": "Product 3",
-      "description": "Description for Product 3",
-      "price": "49.99",
-      "category": "Category 1",
-      "image": "/categoryImages/sick.png"
-    },
-    {
-      "id": "4",
-      "name": "Product 4",
-      "description": "Description for Product 4",
-      "price": "59.99",
-      "category": "Category 2",
-      "image": "/categoryImages/sick.png"
-    },
-    {
-      "id": "5",
-      "name": "Product 4",
-      "description": "Description for Product 4",
-      "price": "59.99",
-      "category": "Category 3",
-      "image": "/categoryImages/sick.png"
-    },
-    {
-      "id": "6",
-      "name": "Product 6",
-      "description": "Description for Product 6",
-      "price": "59.99",
-      "category": "Category 3",
-      "image": "/categoryImages/sick.png"
-    }
-  ]
-  
+[
+  {
+    "id": "1",
+    "name": "Paracetamol",
+    "description": "Effective for mild to moderate pain relief and to reduce fever.",
+    "price": "5.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "2",
+    "name": "Ibuprofen",
+    "description": "Relieves pain, reduces inflammation, and lowers fever.",
+    "price": "7.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "3",
+    "name": "Aspirin",
+    "description": "Effective for pain relief, reducing inflammation, and preventing heart attacks and strokes.",
+    "price": "6.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "4",
+    "name": "Acetaminophen",
+    "description": "Used to treat mild to moderate pain and to reduce fever.",
+    "price": "8.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "5",
+    "name": "Loratadine",
+    "description": "Non-drowsy antihistamine used for relieving symptoms of hay fever and other allergic conditions.",
+    "price": "9.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "6",
+    "name": "Cetirizine",
+    "description": "Antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, and sneezing.",
+    "price": "10.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "7",
+    "name": "Diphenhydramine",
+    "description": "Antihistamine used to relieve symptoms of allergy, hay fever, and the common cold.",
+    "price": "11.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "8",
+    "name": "Omeprazole",
+    "description": "Proton pump inhibitor used to treat gastroesophageal reflux disease (GERD), peptic ulcer disease, and Zollinger-Ellison syndrome.",
+    "price": "12.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "9",
+    "name": "Ranitidine",
+    "description": "Histamine-2 blocker used to treat and prevent ulcers in the stomach and intestines.",
+    "price": "13.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "10",
+    "name": "Simethicone",
+    "description": "Antiflatulent used to relieve symptoms of gas, bloating, and discomfort caused by gas.",
+    "price": "14.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "11",
+    "name": "Fexofenadine",
+    "description": "Antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, and sneezing.",
+    "price": "15.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "12",
+    "name": "Montelukast",
+    "description": "Leukotriene receptor antagonist used to prevent asthma and to relieve symptoms of seasonal allergies.",
+    "price": "16.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "13",
+    "name": "Lansoprazole",
+    "description": "Proton pump inhibitor used to treat peptic ulcer disease, gastroesophageal reflux disease (GERD), and Zollinger-Ellison syndrome.",
+    "price": "17.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "14",
+    "name": "Cimetidine",
+    "description": "Histamine-2 blocker used to treat and prevent ulcers in the stomach and intestines.",
+    "price": "18.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "15",
+    "name": "Famotidine",
+    "description": "Histamine-2 blocker used to treat and prevent ulcers in the stomach and intestines.",
+    "price": "19.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "16",
+    "name": "Ondansetron",
+    "description": "Serotonin 5-HT3 receptor antagonist used to prevent nausea and vomiting caused by chemotherapy, radiation therapy, and surgery.",
+    "price": "20.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "17",
+    "name": "Domperidone",
+    "description": "Dopamine receptor antagonist used as a prokinetic agent to treat nausea and vomiting.",
+    "price": "21.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "18",
+    "name": "Metoclopramide",
+    "description": "Dopamine receptor antagonist used as a prokinetic agent to treat nausea and vomiting.",
+    "price": "22.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "19",
+    "name": "Loperamide",
+    "description": "Opioid receptor agonist used to decrease the frequency of diarrhea.",
+    "price": "23.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  },
+  {
+    "id": "20",
+    "name": "Bismuth Subsalicylate",
+    "description": "Antacid and anti-diarrheal used to treat heartburn, indigestion, upset stomach, nausea, diarrhea, and other temporary discomforts of the stomach and gastrointestinal tract.",
+    "price": "24.99",
+    "category": "Medicines",
+    "image": "/categoryImages/sick.png"
+  }
+]
