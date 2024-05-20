@@ -83,13 +83,17 @@ const ShopByCategoryPage: React.FC = () => {
                   key={product.id}
                   className="bg-green-200 p-4 rounded-lg shadow-md h-auto"
                 >
-                  <img
+                  {/* <img
                     src={product.image}
                     alt={product.name}
                     className="w-full h-40 object-cover mb-4"
                   />
                   <h4 className="text-lg font-semibold text-green-900">{product.name}</h4>
-                  <p className="text-green-700">${product.price}</p>
+                <p className="text-green-700">${product.price}</p> */}
+                <div>
+                <img src="/avatar/female-doctor.png" alt="doctor" />
+                <h4 className="text-lg font-semibold text-green-900">COMING SOON !</h4> 
+                </div>
                 </div>
               ))}
             </div>
@@ -105,13 +109,13 @@ const ShopByCategoryPage: React.FC = () => {
                   key={product.id}
                   className="flex-none h-auto bg-green-200 p-4 rounded-lg shadow-md mr-4"
                 >
-                  <img
+                  {/* <img
                     src={product.image}
                     alt={product.name}
                     className="w-full h-24 object-cover mb-2"
                   />
                   <h4 className="text-sm font-semibold text-green-900">{product.name}</h4>
-                  <p className="text-gray-700 text-sm">${product.price}</p>
+                  <p className="text-gray-700 text-sm">${product.price}</p> */}
                 </div>
               ))}
             </div> 
