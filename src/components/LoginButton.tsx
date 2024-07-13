@@ -29,16 +29,22 @@ const LoginButton = () => {
   const loginButtonWidth = width < 768 ? 40 : 150;
   const loginButtonHeight = width < 768 ? 27 : 70;
 
+  const handleLoginClick = () => {
+    // Replace with your backend authentication sign-in URL
+    const signInUrl = "https://pharmacy-backend-smoky.vercel.app/sign-in";
+    window.location.href = signInUrl;
+  };
+
   return (
     <div
       className="fixed top-3 right-12 md:top-2 md:right-2 flex justify-center items-center"
       style={{ width: `${loginButtonWidth}px`, height: `${loginButtonHeight}px` }}
     >
-      <Link href={"/aboutus"}>
-      <button className="px-3 py-2 rounded-xl border border-neutral-600 text-black bg-white  hover:bg-green-700 transition duration-200">
+      
+      <button onClick={handleLoginClick} className="px-3 py-2 rounded-xl border border-neutral-600 text-black bg-white  hover:bg-green-700 transition duration-200">
   Login/Signup
 </button>
-      </Link>
+      
     </div>
   );
 };
