@@ -4,12 +4,13 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import Logo from "./Logo";
+import LoginButton from "./LoginButton";
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("fixed top-12 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Logo />
       
@@ -51,6 +52,7 @@ function Navbar({ className }: { className?: string }) {
         
 
       </Menu>
+      <LoginButton />
     </div>
   );
 }
